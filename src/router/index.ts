@@ -14,6 +14,7 @@ export default new Router({
     },
     {
       path: '/vuedemo',
+      name:'mydemo',
       component: ShoppingCart
     }
   ]

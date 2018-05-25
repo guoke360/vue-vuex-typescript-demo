@@ -1,7 +1,9 @@
 <template>
   <div class="hello">
-    <h2>Vuex</h2>
-    <router-link to="/vuedemo">ShoppingCart Example</router-link>
+    <h2>NGL DEMO</h2>
+       <img src="/src/assets/dar.jpg">
+       <br>
+    <router-link to="/vuedemo">某练习测试的自我跳转页面</router-link>
   </div>
 </template>
 
