@@ -1,8 +1,7 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
     <h2>Vuex</h2>
-    <router-link to="/vuex">ShoppingCart Example</router-link>
+    <router-link to="/vuedemo">ShoppingCart Example</router-link>
   </div>
 </template>
 
