@@ -41,6 +41,7 @@ const actions = {
       () => context.commit(types.CHECKOUT_SUCCESS),
       () => context.commit(types.CHECKOUT_FAILURE, failurePayload)
     )
+    console.log(products);
   }
 }
 

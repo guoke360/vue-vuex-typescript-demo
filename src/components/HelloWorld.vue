@@ -1,6 +1,6 @@
 <template>
   <div class="hello">
-    <h2>NGL DEMO</h2>
+    <h2>NGL VUE DEMO</h2>
        <img src="/src/assets/dar.jpg">
        <br>
     <router-link to="/vuedemo">某练习测试的自我跳转页面</router-link>
@@ -14,17 +14,18 @@ export default Vue.extend({
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: ''
     }
   },
   mounted () {
     this.hello()
     const a = '11'
   },
+  
   methods: {
     hello () {
       console.log('Hello world')
-    }
+    }  
   }
 })
 </script>

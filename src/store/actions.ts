@@ -7,6 +7,7 @@ const addToCart: Action<State, any> = (context: { commit: Commit }, product: Pro
     const payload: AddToCartPayload = {
       id: product.id
     }
+    alert(product.title)
     context.commit(types.ADD_TO_CART, payload)
   }
 }
